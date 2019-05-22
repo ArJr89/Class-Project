@@ -1,0 +1,87 @@
+body {
+  background-color: lightblue;
+  /* Set bottom margin to 100px */
+}
+
+#willisTitle {
+  text-align: center;
+  color: darkblue;
+}
+
+table,
+th,
+td {
+  background-color: lightgreen;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#willisPic,
+#willisVideo {
+  height: 500px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classHidden {
+  display: none !important;
+}
+
+#link {
+  text-align: center;
+}
+
+.date {
+  text-align: center;
+}
+
+.centerClass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* The following styles should be applied to trivia, triviaInput, answerButton, triviaContent
+nextQuestion, and resetGame...
+center the elements, center the text if there is any, set the top and bottom margins to 20px */
+
+/* Set the top and bottom margins of triviaButton, titleInput, yearInput, and videoButton to 20px */
+
+/* Style footer tag by tag name {
+  Set position to fixed
+  Set left edge of element to start at 0
+  Set bottom edge of element to start at 0
+  Set top and bottom padding to 15px
+  Set 100 percent width
+  Set the minimum height to 10 percent
+  Set background color to white
+  Text color must be black
+  Align all text to center
+}
+
+Style section tag by tag name {
+  Set display to block
+  Set left and right margins to auto 
+  Align all text to center
+} */
+
+/* Style messageCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    Set your transition to .3 seconds
+    Set border-radius to 5px
+    Background color should be light gray
+    Set right and left margins to 180px
+    Set top and bottom margins to 20px
+    Set left and right padding to 20px;
+} */
+
+#messageCard:hover {
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .messageContainer {
+    Set top padding to 20px and bottom padding to 16px
+} */
